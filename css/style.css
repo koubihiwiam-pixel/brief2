@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+    font-family:'Inter',sans-serif;
+}
+header {
+    box-sizing: border-box;
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.logo {
+    margin-top: 13px;
+    width: 40px;
+    height: 40px;
+    background-color: #0866C2;
+    border-radius: 10px;
+}
+.logo i {
+    padding-left: 14px;
+    padding-top: 11px;
+    color: #FFFFFF;
+}
+.logos {
+    display: flex;
+    gap:7px;
+}
+.logos p{
+    margin-top:19px ;
+    font-size: 25px;
+}
+p span {
+    color: #0866C2;
+}
+button {
+    width: 171px;
+    height: 44px;
+    border-radius: 10px;
+    background-color: #FF6418;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+nav{
+    display: flex;
+    gap: 32px;
+    margin-top:20px;
+}
+nav a{
+    color: #102A43;
+    text-decoration: none;
+}
+.liendepage{
+    text-decoration: underline;
+    color:#0866C2;
+}
+.btn {
+    background-color: #FFFFFF;
+    color: #102A43;
+    width: 142px;
+}
+#sec1 {
+    padding: 30px;
+    background-color: #F3F7FA;
+    display: flex;
+}
+#sec1 img{
+    max-width:588px;
+    max-height: 464px;
+    border-radius: 24px;
+}
+#loc{
+    color: #0866C2;
+    font-size: 13px;
+}
+h1{
+    font-weight: 700;
+    color: #102A43;
+    font-size: 56px;
+}
+.presentation p{
+    color: #486176;
+}
+.engagement {
+    background-color: #F3F7FA;
+    display: flex;
+    gap: 90px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 28px;
+}
+.engagement i{
+    color:#0866C2 ;
+    margin-top: 15px;
+   
+}
+.engagement div {
+    display: flex;
+    gap: 20px;
+}
+.section2{
+    padding-top: 50px;
+    text-align: center;
+}
+.section2 p{
+    color:#0866C2;
+    font-size: 12px;
+    font-weight: bold;
+}
+.section2 h2{
+    margin: 2px;
+    color:#102A43 ;
+    font-size: 40px;
+    font-weight: bold;
+}
+.section2 h4{
+    color: #486176;
+    font-size: 16px;
+    font-weight: 400;
+}
+.images{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.images img{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    width: 100%;
+    height: 210px;
+}
+.images div{
+    width: 394.67px;
+    border: 1px solid #DCE5EC;
+    border-radius: 16px;
+    text-align: start;
+}
+.images p{
+    padding: 10px;
+    color: #486176;
+    font-size: 15px;
+}
+.images h3{
+    padding: 10px;
+   color: #102A43;
+}
+.bouttn{
+    margin-top: 40px;
+    color: #102A43;
+    border: 1px solid #DCE5EC;
+    background-color: #FFFFFF;
+}
+.images i{
+    padding-left: 10px;
+    padding-top: 5px;
+    color: #0866C2;
+}
+.section3 img{
+    width:520px;
+    height: 464px;
+    border-radius: 24px;
+}
+
+@media (max-width:400px) {
+    nav{
+        visibility: hidden;
+    }
+    #sec1{
+        display: flex;
+        flex-direction: column;
+
+    }
+    #sec1 img{
+        width:335px ;
+        height: 320px;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
