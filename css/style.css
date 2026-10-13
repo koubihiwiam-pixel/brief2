@@ -100,10 +100,15 @@ h1{
     padding-top: 50px;
     text-align: center;
 }
-.section2 p{
+#intro{
     color:#0866C2;
     font-size: 12px;
     font-weight: bold;
+}
+.section2 p{
+    color: #486176;
+    font-size: 16px;
+    font-weight: 400;
 }
 .section2 h2{
     margin: 2px;
@@ -111,11 +116,7 @@ h1{
     font-size: 40px;
     font-weight: bold;
 }
-.section2 h4{
-    color: #486176;
-    font-size: 16px;
-    font-weight: 400;
-}
+
 .images{
     display: flex;
     justify-content: space-around;
@@ -154,10 +155,73 @@ h1{
     color: #0866C2;
 }
 .section3 img{
+    
     width:520px;
     height: 464px;
     border-radius: 24px;
+    margin-top: 20px;
+    
 }
+#surtitre{
+    color:#0866C2;
+    font-size: 12px;
+    font-weight: bold;
+}
+.section3 h2{
+    margin: 2px;
+    color:#102A43 ;
+    font-size: 40px;
+    font-weight: bold;
+}
+.section3 {
+    padding-top:40px ;
+    margin-top: 25px;
+    display: flex;
+    background-color: #F3F7FA;
+    
+}
+.listeAvantage{
+    display :flex;
+}
+.article{
+    display: flex;
+    flex-direction: column;
+    padding:55px ;
+}
+h3 i {
+    color: #0866C2;
+}
+footer{
+    background-color: #102A43;
+    color:#FFFFFF;
+    padding: 25px;
+}
+#paragh{
+    box-sizing: border-box;
+    width: 50%;
+}
+.pied{
+    display: flex;
+}
+.pied h2 {
+    font-size: 15px;
+}
+.pied h3{
+    color: #C2D0DD;
+    font-size: 14px;
+}
+.pied2{
+    display: flex;
+    justify-content: space-between;
+    color: #C2D0DD;
+    font-size: 14px;
+}
+.mention{
+    display: flex;
+    gap:12px;
+}
+
+
 
 @media (max-width:400px) {
     nav{
@@ -166,16 +230,38 @@ h1{
     #sec1{
         display: flex;
         flex-direction: column;
-
     }
     #sec1 img{
-        width:335px ;
+        margin-top: 10px;
+        width:325px ;
         height: 320px;
     }
     header{
         display: flex;
         flex-direction: column;
     }
+    button{
+        width: 100%;
+    }
+    .btn{
+        width: 100%;
+    }
+    .engagement{
+        padding-top:0 ;
+        gap:0;
+
+    }
+    .images{
+        gap:20px;
+    }
+    .section3{
+        flex-wrap: wrap;
+    }
+    .section3 img{
+    max-width:100%;
+    height: auto;
+    border-radius: 24px;
+}
 }
 
 
