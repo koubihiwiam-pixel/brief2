@@ -202,6 +202,7 @@ footer{
 }
 .pied{
     display: flex;
+    gap: 100px;
 }
 .pied h2 {
     font-size: 15px;
@@ -223,7 +224,7 @@ footer{
 
 
 
-@media (max-width:400px) {
+@media (max-width:800px) {  
     nav{
         visibility: hidden;
     }
@@ -261,7 +262,14 @@ footer{
     max-width:100%;
     height: auto;
     border-radius: 24px;
-}
+    }
+    .pied{
+        flex-wrap: wrap;
+        gap:100px;
+    }
+    .pied2{
+        flex-wrap: wrap;
+    }
 }
 
 
