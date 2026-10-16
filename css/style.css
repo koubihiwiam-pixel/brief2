@@ -287,7 +287,15 @@ footer{
 .Cartes{
     margin-bottom: 30px;
 }
-
+.contact{
+    text-align: center;
+    color: #0866C2;
+}
+form{
+    background-color: #F3F7FA;
+    padding: 40px;
+    
+}
 
 
 
